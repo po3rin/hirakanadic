@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hirakanadic"
-version = "0.0.2"
+version = "0.0.3"
 description = ""
 authors = ["po3rin"]
 repository = "http://github.com/po3rin/hirakanadic"

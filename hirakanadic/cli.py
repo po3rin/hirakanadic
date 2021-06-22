@@ -60,6 +60,8 @@ class HiraKanaNormalizer:
             dict_type=dict_type, config_path=sudachi_setting
         ).create()
 
+        self.already = []
+
     def convert(
         self, text: str, left_id: int = 5646, right_id: int = 5646, cost: int = 7000
     ) -> str:
@@ -70,8 +72,13 @@ class HiraKanaNormalizer:
             if is_kana(m.surface()) and "名詞" in m.part_of_speech()
         ]
         for k in kana:
+            if k in self.already:
+                continue
+            self.already.append(k)
+
             hira = kana2hira(k)
             result += f"{hira},{left_id},{right_id},{cost},{hira},名詞,普通名詞,一般,*,*,*,{k},{k},*,*,*,*,*\n"
+
         return result
 
 
