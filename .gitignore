@@ -1,0 +1,8 @@
+venv/
+.pytest_cache/
+__pycache__/
+sudachi_user_dict.txt
+dist/
+out.txt
+*/sudachi_user_dic
+
