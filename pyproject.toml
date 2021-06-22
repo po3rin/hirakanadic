@@ -16,7 +16,7 @@ python = "^3.7"
 sudachipy = "^0.5.2"
 sudachidict_full = "^20210608"
 SudachiDict-core = "^20210608"
-jaconv = "^0.3"
+jaconv = "^0.2.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.1"
