@@ -1,5 +1,9 @@
 # hirakanadic
 
+[![PyPi version](https://img.shields.io/pypi/v/hirakanadic.svg)](https://pypi.python.org/pypi/hirakanadic/)
+![PyTest](https://github.com/po3rin/hirakanadic/workflows/PyTest/badge.svg)
+[![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+
 ```sh
 $ hirakanadic example/input.txt -o out.txt
 ```
