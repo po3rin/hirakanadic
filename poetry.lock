@@ -73,8 +73,8 @@ python-versions = "*"
 
 [[package]]
 name = "jaconv"
-version = "0.3"
-description = "Pure-Python Japanese character interconverter for Hiragana, Katakana, Hankaku, Zenkaku and more"
+version = "0.2.4"
+description = "Pure-Python Japanese character interconverter for Hiragana, Katakana, Hankaku and Zenkaku"
 category = "main"
 optional = false
 python-versions = "*"
@@ -215,7 +215,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "ccd8c8a79a77c0bf9d72e61e834e70a3c4ae6d74923cf421959c9ee9616f2d90"
+content-hash = "9799e704ba84ad36aaa5d77dcfb833b39066262f032cfcf99dd6d406e49a9661"
 
 [metadata.files]
 atomicwrites = [
@@ -294,7 +294,7 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 jaconv = [
-    {file = "jaconv-0.3.tar.gz", hash = "sha256:cc70c796c19a6765598c03eac59d1399a555a9a8839cc70e540ec26f0ec3e66e"},
+    {file = "jaconv-0.2.4.tar.gz", hash = "sha256:2ccdf768da20d55f30e8801e5e2e27783aae1bb29b890e503e1124134d6d09c9"},
 ]
 packaging = [
     {file = "packaging-20.9-py2.py3-none-any.whl", hash = "sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a"},
