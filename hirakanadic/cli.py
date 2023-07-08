@@ -57,7 +57,7 @@ class HiraKanaNormalizer:
             self.split_mode = tokenizer.Tokenizer.SplitMode.C
 
         self.tokenizer = dictionary.Dictionary(
-            dict_type=dict_type, config_path=sudachi_setting
+            dict=dict_type, config_path=sudachi_setting
         ).create()
 
         self.already = []
