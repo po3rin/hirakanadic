@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hirakanadic"
-version = "0.0.3"
+version = "0.0.4"
 description = ""
 authors = ["po3rin"]
 repository = "http://github.com/po3rin/hirakanadic"
@@ -12,10 +12,10 @@ license = "Apache-2.0"
 hirakanadic = "hirakanadic.cli:cli"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-sudachipy = "^0.5.2"
-sudachidict_full = "^20210608"
-SudachiDict-core = "^20210608"
+python = "^3.11"
+sudachipy = "^0.6.7"
+sudachidict-core = "^20230110"
+sudachidict-full = "^20230110"
 jaconv = "^0.2.4"
 
 [tool.poetry.dev-dependencies]
